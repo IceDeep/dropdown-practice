@@ -242,12 +242,22 @@ main .main-content__text--size {
     margin-bottom: 0;
   }
 }
+@media (max-width: 470px) {
+  main .main-content__text--size {
+    font-size: 1.7rem;
+  }
+}
 main .main-content__paragraph--size {
   font-size: 18px;
   font-family: "Epilogue", sans-serif;
   font-weight: 500;
   line-height: 1.4;
   color: hsl(0deg, 0%, 53%);
+}
+@media (max-width: 470px) {
+  main .main-content__paragraph--size {
+    font-size: 0.95rem;
+  }
 }
 main .learn-more {
   color: white;
